@@ -1,0 +1,40 @@
+{
+	"imap_cinfig":{
+		"username": "sr27631@gmail.com",
+		"password": "YOUR GMAIL PASSWORD",
+		"host": "smtp.gmail.com",
+		"port": 993,
+		"tls": true,
+		"connTimeout": 10000,
+		"authTimeout": 50000, 
+		"debug": "console.log",
+
+
+		"mailbox": "INBOX", 
+
+		"markSeen": true,
+		"fetchUnreadOnStart": true, 
+		"mailParserOptions": {"streamAttachments": true},
+		"attachments": true, 
+		"attachmentOptions": { "directory": "attachments/" }
+ 
+	},
+	"mailOptions" : {
+	  "from": "'RAVI '<sr27631@gmail.com>",
+	  "to": "sr27631@gmail.com ",
+	  "subject": "Welcome to cloudtern",
+	  "text": "Welcome to cloudtern"
+	},
+	"smtp_auth" :{
+		
+		"host": "smtp.gmail.com",
+        "port": 587,
+		"starttls":true,
+        "secure": false, 
+		"auth": {
+			"user": "sr27631@gmail.com",
+			"pass": "YOUR GMAIL PASSWORD"
+		}
+	}
+	
+}

@@ -1,0 +1,13 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "casting": "0.0.2",
+    "imap": "",
+    "mailparser": "^2.1.0",
+    "nodemailer": "^4.4.0",
+    "string-length": "^2.0.0",
+    "trim": "0.0.1"
+  }
+}
