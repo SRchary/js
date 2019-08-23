@@ -39,8 +39,25 @@ var missing_val = need_total - present_arry_total;
 console.log("Missing Value");
 console.log(missing_val);
 
+/**************************** QUESTION ---3 *******************************/
 
-console.log();
+var arr  =  [1 ,2 ,3 ];
+var arr2 = [4,5,6];
+
+// arr+arr2 = ?
+
+/* What Is the output of arr+arr2  */
+// Answer is 1,2,34,5,6
+
+/* Explation : here + operend is concatinate
+here arr and arr2 is  array   + oprend is converting arry and arr2 string
+so that  answer 1,2,34,5,6
+*/
+
+
+
+
+
 
 
 
