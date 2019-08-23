@@ -60,6 +60,7 @@ console.log([...arr+arr2]);
 
 /******************************** QUESTION --- 4 ************************************* */
 
+//   refer to  method Chaining
 var a= {
 
     x:function(){
@@ -78,6 +79,22 @@ var a= {
 }
 
 a.x().y().z();
+
+/***************************QUESTION --- 5 ********************************/
+
+function y(){
+    console.log(this.length);
+}
+var x = {
+    length :10,
+    method:function(y){
+        arguments[0]();
+    }
+};
+
+x.method(y ,1 ,2 ,4);
+
+/***************************QUESTION --- 6 ********************************/
 
 
 
