@@ -54,6 +54,9 @@ here arr and arr2 is  array   + oprend is converting arry and arr2 string
 so that  answer 1,2,34,5,6
 */
 
+console.log(arr+arr2);
+console.log([...arr+arr2]);
+
 
 
 
