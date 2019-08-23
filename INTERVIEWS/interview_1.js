@@ -1,5 +1,5 @@
 // 1) QUESTION ----1
-var str = "  I Love My India ";
+var str = "  I Love My Contary ";
 /**
  * How to Reverse string
  */
@@ -49,13 +49,17 @@ var arr2 = [4,5,6];
 /* What Is the output of arr+arr2  */
 // Answer is 1,2,34,5,6
 
-/* Explation : here + operend is concatinate
+/*
+Explation : here + operend is concatinate
 here arr and arr2 is  array   + oprend is converting arry and arr2 string
 so that  answer 1,2,34,5,6
 */
 
 console.log(arr+arr2);
 console.log([...arr+arr2]);
+
+/******************************** QUESTION --- 4 ************************************* */
+
 
 
 
