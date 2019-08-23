@@ -60,6 +60,25 @@ console.log([...arr+arr2]);
 
 /******************************** QUESTION --- 4 ************************************* */
 
+var a= {
+
+    x:function(){
+        console.log("x");
+        return a
+    },
+    y:function(){
+        console.log("y");
+        return a
+    },
+    z:function(){
+        console.log("z");
+        return a
+    }
+
+}
+
+a.x().y().z();
+
 
 
 
