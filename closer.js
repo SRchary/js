@@ -15,3 +15,21 @@ console.dir(fun)
 
 
 
+
+
+
+
+var f = function () {
+    var inv = 100000;
+    function inner() {
+        console.log(inv)
+
+    }
+    return inner
+}
+
+let a = f();
+
+console.dir(a);
+
+
