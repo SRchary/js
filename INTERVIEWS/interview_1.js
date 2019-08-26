@@ -131,7 +131,29 @@ for( var i =0 ; i< arry.length;i++){
 
     }
 }
-console.log(count)
+console.log(count);
+
+/********************************Question --- 8 ********************************/
+
+const profile = {
+    name :"RAVI",
+    myname : ()=>{
+
+        console.log(this.name);
+    }
+
+
+};
+profile.myname();
+
+const profile_1 = {
+    name :"RAVI",
+    myname : function(){
+        console.log(this.name);
+    }
+};
+profile_1.myname();
+
 
 
 
