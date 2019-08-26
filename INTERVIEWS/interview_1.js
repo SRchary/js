@@ -207,7 +207,7 @@ const obj = {
     x:10,
     getX(){
         var that =this;
-        const inner = ()=>{
+        const inner = function(){
             console.log(that.x)
         }
         inner()
@@ -221,7 +221,7 @@ obj.getX(); // will give 10
 const obj = {
     x:10,
     getX(){
-        const inner = ()=>{
+        const inner = function(){
             console.log(this.x)
         }
         inner.bind(this)();
