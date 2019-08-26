@@ -164,6 +164,18 @@ Array.prototype.ravi = ()=>{
 };
 a.ravi();
 
+/*******************************Question --10 **************************************/
+
+// oncat two arrays and sort by order
+const a = [1,2,5,7,9];
+const b = [ 6 , 10, 5 ,3,6  ];
+// Answer :
+
+const c = a.concat(b).sort((x,y) => x>y);
+console.log(c);
+
+
+
 
 
 
