@@ -117,7 +117,9 @@ for (let i = 0;i < arr.length ;  i++ ){
 
 var arry = [1 ,2,2,10 ,1,10,10 ,5];
 // find max value in array and how many present in max value count
+
 var maxVal = Math.max(...arry);
+// Here ... is  Spred operater
 console.log(maxVal);
 
 var count =0;
