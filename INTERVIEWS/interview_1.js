@@ -96,6 +96,24 @@ x.method(y ,1 ,2 ,4);
 
 
 /***************************QUESTION --- 6 ********************************/
+// Question -6 : What Is Output
+var arr = [10 , 5,15 , 20 , 25]
+for (let i = 0;i < arr.length ;  i++ ){
+    setTimeout(function(){
+        console.log(i+"  ---> "+arr[i] )
+    } ,arr[i])
+
+}
+
+/* Answer :
+1 ---> 5
+0 ---> 10
+2 ---> 15
+3 ---> 20
+4 ---> 25
+
+
+*/
 
 
 
