@@ -173,6 +173,64 @@ const b = [ 6 , 10, 5 ,3,6  ];
 
 const c = a.concat(b).sort((x,y) => x>y);
 console.log(c);
+/********************************Question -- 11 *************************************************/
+
+// What is the out put bellow
+
+const obj = {
+    x:10,
+    getX(){
+        const inner = function(){
+            console.log(this.x)
+        }
+        inner()
+    }
+
+};
+obj.getX() // will give undefind
+
+// Solution --1 use Arrow function
+const obj = {
+    x:10,
+    getX(){
+        const inner = ()=>{
+            console.log(this.x)
+        }
+        inner()
+    }
+
+};
+obj.getX(); // will give 10
+
+// Solution --2 use scoping
+const obj = {
+    x:10,
+    getX(){
+        var that =this;
+        const inner = ()=>{
+            console.log(that.x)
+        }
+        inner()
+    }
+
+};
+obj.getX(); // will give 10
+
+
+// Solution --2 use scoping
+const obj = {
+    x:10,
+    getX(){
+        const inner = ()=>{
+            console.log(this.x)
+        }
+        inner.bind(this)();
+    }
+
+};
+obj.getX(); // will give 10
+
+
 
 
 
