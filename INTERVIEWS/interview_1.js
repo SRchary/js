@@ -155,6 +155,14 @@ const profile_1 = {
 profile_1.myname();
 /***********************************Question --9*************************************************/
 
+var a =[1 , 2];
+// Question  when i call a.ravi() it should print 1, 2
+// Answer :
+Array.prototype.ravi = ()=>{
+    console.log(a.join(','))
+
+};
+a.ravi();
 
 
 
