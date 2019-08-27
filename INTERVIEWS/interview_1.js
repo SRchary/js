@@ -236,6 +236,17 @@ a[99] =100;
 console.log(a); //[1, 2, 3, empty × 96, 100]
 console.log(a.length); //100
 
+/**********************  Question -- 13  ************************/
+var f = function(){
+
+    var ba =100;
+    return
+    ba;
+
+};
+
+console.log(f()); //undefined
+
 
 
 
