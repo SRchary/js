@@ -247,6 +247,15 @@ var f = function(){
 
 console.log(f()); //undefined
 
+/*********************** Question -- 14 ***********************************/
+var obj = { key:'ravi' , key2: "RAMESH"};
+obj.key3 = "AMMU";
+
+console.log(obj) //{key: "ravi", key2: "RAMESH", key3: "AMMU"}
+
+obj.key = "AMMU";
+console.log(obj) //{key: "AMMU", key2: "RAMESH", key3: "AMMU"}
+
 
 
 
