@@ -230,6 +230,11 @@ const obj = {
 };
 obj.getX(); // will give 10
 
+/*******************************  Question -- 12 **************************************/
+var a =[1 ,2 ,3];
+a[99] =100;
+console.log(a); //[1, 2, 3, empty × 96, 100]
+console.log(a.length); //100
 
 
 
