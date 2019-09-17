@@ -1,12 +1,12 @@
-function a(){
+function a(slp =1000){
 
  return new Promise((reslove ,reject)=>{
  
  setTimeout(()=>{
  
- console.log("Im from A");
- reslove("Im from A FAILLL");
- },10);
+
+ reslove("Im from A reslove");
+ },slp);
  
  });
 
@@ -67,8 +67,9 @@ try {
  console.log(err);
 }
 */
-//Promise.all([ c(),b(),a()]).then(()=>{console.log("SUCCESS")} ).catch((err)=>{console.log(err)} );
 
+//Promise.all([ c(),b(),a()]).then(()=>{console.log("SUCCESS")} ).catch((err)=>{console.log(err)} );
+/*
 a().then((result)=>{
 
  console.log(result);
@@ -78,3 +79,23 @@ a().then((result)=>{
  console.log("PROCESSED B AND RESULT OF " + result_b);
 
 });
+*/
+
+a(1000).then((result)=>{
+ console.log(result);
+ console.log("first-------------------------------------");
+});
+
+console.log("-------------------------------------");
+
+a(2000).then((result)=>{
+ console.log(result);
+ console.log("----------------  SECOND ---------------------");
+});
+
+/*
+a().then((result)=>{
+ console.log(result);
+ alert("second");
+});
+*/
